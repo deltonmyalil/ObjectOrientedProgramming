@@ -21,7 +21,7 @@ public class Main {
         System.out.println(delton.getCustomerName() + " holding account number " + delton.getAccountNumber() + " has a balance of INR" + delton.getBalance());
 
         // init using constructor for anphi
-        BankAccount anphi = new BankAccount(4543,300,"Anphi","anphi@example.com",9754876);
+        BankAccount anphi = new BankAccount(4543, 300, "Anphi", "anphi@example.com", 9754876);
 
         System.out.println("\nfor anphi now, using constructor");
         anphi.depositFunds(3000);
