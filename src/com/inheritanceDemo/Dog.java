@@ -36,5 +36,6 @@ public class Dog extends Animals {
         super.move(8); //the move method from the super class is called
     }
 
+
                 // this is the difference between move() and super.move()
 }
